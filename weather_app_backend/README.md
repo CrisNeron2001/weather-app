@@ -1,7 +1,7 @@
 Weather Chile 
 ----------------
 
-![Static Badge]([https://img.shields.io/pypi/frameworkversions/:frameworkName/:packageName](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white))
+![Static Badge](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 
 ================
 
