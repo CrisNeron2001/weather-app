@@ -8,7 +8,7 @@ from rest_framework.decorators import api_view
 
 @api_view(['GET'])
 def get_weather_data(request):
-    weather_api_url = config("WEATHER_API_URL")
+    weather_api_url = "https://api.boostr.cl/weather.json"
     headers = {"accept": "application/json"}
     ubications = Ubication.objects.all()
     data = []

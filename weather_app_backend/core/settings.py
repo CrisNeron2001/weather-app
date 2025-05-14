@@ -5,7 +5,7 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = config('SECRET_KEY', default="django-insecure-di_wth(weh&jssm%)p$7fv)o01@z@2qwvitha2-t&%b(jc-p3o")
+SECRET_KEY = "django-insecure-di_wth(weh&jssm%)p$7fv)o01@z@2qwvitha2-t&%b(jc-p3o"
 
 DEBUG = False
 
@@ -64,16 +64,16 @@ DATABASES = {
 }
 
 connect(
-    db=config('DB_NAME', default="weatherdb"),
-    host=config('DB_HOST', default="db"),
-    port=int(config('DB_PORT', default=27017)),
-    username=config('DB_USER', default="weatheruser"),
-    password=config('DB_PASSWORD', default="weather123"),
+    db="weatherdb",
+    host="db",
+    port=27017,
+    username="weatheruser",
+    password="weather123",
     authentication_source='admin'
 )
 
 CORS_ALLOWED_ORIGINS = [
-    config('CORS_ALLOWED_ORIGINS', default="http://localhost:5173"),
+    "http://localhost:5173",
 ]
 
 CORS_ALLOWED_HEADERS = [
