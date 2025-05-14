@@ -7,6 +7,8 @@ The central idea of the project is to provide users with comprehensive and easil
 
 The application architecture incorporates two keys modules: dashboard and cartographic modules. Both components are enginneed to provide users with facilitate a nuanced understanding of Chile climate.
 
+The Clima Chile app utilizes the Boostr API (https://api.boostr.cl/) as its core data source for climate analysis. The dashboard and interactive map rely on this API to provide users with real-time and historical meteorological information, enabling data-driven insights into Chile's climate.
+
 
 Dashboard
 
