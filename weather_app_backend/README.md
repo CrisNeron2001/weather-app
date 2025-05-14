@@ -1,9 +1,7 @@
 Weather Chile 
 ----------------
 
-Django
-
-Python 3.X
+![PyPI - Versions from Framework Classifiers](https://img.shields.io/pypi/frameworkversions/:frameworkName/:packageName)
 
 ================
 
