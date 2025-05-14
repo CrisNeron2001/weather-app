@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.content {
+    transition: background-image 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: static;
+}
+
+.dark-mode {
+    background-image: url('./assets/moon.png');
+    background-color: #142D53;
+	background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+
+.light-mode {
+    background-image: url('./assets/sun.png');
+    background-color: #A8CBFF;
+	background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}

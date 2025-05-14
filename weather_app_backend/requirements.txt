@@ -1,0 +1,17 @@
+Django
+djangorestframework
+requests
+django-cors-headers
+python-decouple
+pytz
+mongoengine
+pymongo
+djongo
+openpyxl
+requests-cache 
+retry-requests 
+numpy 
+pandas
+pywttr 
+pywttr-models
+aiopywttr

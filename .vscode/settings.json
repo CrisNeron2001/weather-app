@@ -1,0 +1,13 @@
+{
+    "python.testing.pytestArgs": [
+        "weather_app_backend"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+	"editor.tabFocusMode": false,
+	"editor.useTabStops": true,
+    "editor.insertSpaces": false,
+	"workbench.settings.settingsSearchTocBehavior": "filter",
+	"editor.comments.insertSpace": false,
+	"terminal.integrated.defaultProfile.windows": "PowerShell"
+}
