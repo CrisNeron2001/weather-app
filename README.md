@@ -1,4 +1,4 @@
-Weather Chile 
+Weather Chile App 
 -------------------
 
 Descriptive summary of the project
@@ -13,6 +13,7 @@ Dashboard
 This module serves as a centralized analytical hub, presenting meteorological indicators and aggregated climate data in an accessible format. Its interactive features enable users to engage with the information. 
 
 Cartographic
+
 This module allows the visual representation of climate variables across the Chilean territory. Approach enhances the user's ability to contextualize complex climate information geographically.
 
 Technologies i used:
