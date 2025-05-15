@@ -1,5 +1,4 @@
 import requests
-from decouple import config
 from .models import Ubication
 from rest_framework import status
 from rest_framework.response import Response
