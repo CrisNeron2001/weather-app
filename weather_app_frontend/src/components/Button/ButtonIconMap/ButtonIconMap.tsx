@@ -9,11 +9,11 @@ export const ButtonIconMap = () => {
 				sx={{
 					color: "#0552b5",
 					fontSize: {
-						xs: IconButtonSizes.small,
-						sm: IconButtonSizes.medium,
-						md: IconButtonSizes.medium,
-						lg: IconButtonSizes.large,
-						xl: IconButtonSizes.large,
+						xs: IconButtonSizes.xs,
+						sm: IconButtonSizes.sm,
+						md: IconButtonSizes.md,
+						lg: IconButtonSizes.lg,
+						xl: IconButtonSizes.xl,
 					},
 					transition: "color 0.3s ease-in-out",
 					"&:hover": {
