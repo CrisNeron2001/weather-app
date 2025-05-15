@@ -9,15 +9,10 @@ services:
       - ./weather_app_backend:/code
     depends_on:
       - db
-    env_file:
-      - /env/.env
-
   db:
     image: mongo:6.0
     volumes:
       - mongodb_data:/data/db
-    env_file:
-      - /env/.env
     ports:
       - "27017:27017"
 
