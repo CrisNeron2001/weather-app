@@ -13,8 +13,7 @@ const App: React.FC = () => {
 
 	useEffect(() => {
 		const handleResize = () => {
-			console.log("Window width:", window.innerWidth);
-			if (window.innerWidth >= 1024) {
+			if (window.innerWidth >= 913) {
 				setIsSidebarOpen(true);
 			} else {
 				setIsSidebarOpen(false);
@@ -34,15 +33,15 @@ const App: React.FC = () => {
 				<Router>
 					<div className="flex flex-col h-screen w-screen">
 						<header>
-							<div className="xl:hidden">
+							<div className="lg:hidden">
 								<NavBar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} />
 							</div>
 							<SideBar isOpen={isSidebarOpen} />
 						</header>
 						<main
 							className={`flex flex-col flex-1 w-full justify-center transition-all duration-300 ${
-								isSidebarOpen ? "ml-64" : "ml-0 xl:ml-64"
-							} mt-14 xl:mt-0`}>
+								isSidebarOpen ? "ml-64" : "ml-0 lg:ml-64"
+							} mt-14 lg:mt-0`}>
 							<ContentWrapper />
 						</main>
 						<Footer />
