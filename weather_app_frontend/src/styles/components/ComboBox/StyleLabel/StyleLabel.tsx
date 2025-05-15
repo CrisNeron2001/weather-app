@@ -9,7 +9,7 @@ export const StyleLabel: React.FC<Props> = ({ children }) => {
         <label
             style={{
                 color: theme === Theme.dark ? "white" : "black",
-                fontSize: 30,
+                fontSize: 20,
                 transition: "color 0.3s ease-in-out",
             }}
         >
