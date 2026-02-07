@@ -30,6 +30,7 @@
 		"@hooks/*":["src/hooks/*"],
 		"@data/*": ["src/data/*"],
 		"@layouts/*": ["src/layouts/*"],
+		"@models/*": ["src/models/*"]
 	}
   },
   "include": ["src", "src/core/class/error/.ts"]
