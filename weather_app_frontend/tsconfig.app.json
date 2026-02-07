@@ -21,6 +21,16 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+
+	"baseUrl": "./",
+	"paths": {
+		"@components/*": ["src/components/*"],
+		"@interfaces/*": ["src/interfaces/*"],
+		"@services/*": ["src/services/*"],
+		"@hooks/*":["src/hooks/*"],
+		"@data/*": ["src/data/*"],
+		"@layouts/*": ["src/layouts/*"],
+	}
   },
   "include": ["src", "src/core/class/error/.ts"]
 }
