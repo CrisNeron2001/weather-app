@@ -1,26 +1,25 @@
-import { WeatherApiResponse } from "@models/api-response/weather-chile-api-response";
 import { Weather } from "@models/class/weather-chile-class";
 import { WeatherDTO } from "@models/dto/weather-chile-dto";
 
 export class WeatherMapper {
-	static fromApiToDTO(apiResponse: WeatherApiResponse): WeatherDTO {
+	static fromDTOToDomain(weatherDTO: WeatherDTO): Weather {
 		return {
-			code: apiResponse.code,
-			city: apiResponse.city,
-			updated_at: apiResponse.updated_at,
-			temperature: apiResponse.temperature,
-			condition: apiResponse.condition,
-			humidity: apiResponse.humidity
+			code: weatherDTO.code,
+			city: weatherDTO.city,
+			updated_at: weatherDTO.updated_at,
+			temperature: weatherDTO.temperature,
+			condition: weatherDTO.condition,
+			humidity: weatherDTO.humidity
 	 	};
 	}
-	static fromDTOToDomain(weatherDTO: WeatherDTO): Weather {
-		return new Weather(
-			weatherDTO.code,
-			weatherDTO.city,
-			weatherDTO.updated_at,
-			weatherDTO.temperature,
-			weatherDTO.condition,
-			weatherDTO.humidity
-		);
+	static fromDomainToDTO(weather: Weather): WeatherDTO {
+		return {
+			code: weather.code,
+			city: weather.city,
+			updated_at: weather.updated_at,
+			temperature: weather.temperature,
+			condition: weather.condition,
+			humidity: weather.humidity
+		}
 	}
 }
