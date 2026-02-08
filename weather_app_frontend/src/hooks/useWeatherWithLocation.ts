@@ -1,12 +1,20 @@
 import { locations } from "@data/locations-regions-data";
 import { WeatherWithLocation } from "@models/view-model/weather-location-view-model";
 import { getWeather } from "@services/weather-chile-service";
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 const useWeatherWithLocation = () => {
 	const [weatherWithLocation, setWeatherWithLocation] = useState<WeatherWithLocation[]>([]);
 	const [isLoading, setIsLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
+	const eventHandle = useMemo(
+		() => ({
+			click() {
+				setWeatherWithLocation((weather) => weather)
+			},
+		}),
+		[],
+	);
 
 	useEffect(() => {
 		const fetchWeather = async () => {
@@ -27,7 +35,7 @@ const useWeatherWithLocation = () => {
 		fetchWeather();
 	}, []);
 	return {
-		weatherWithLocation, isLoading, error
+		weatherWithLocation, isLoading, error, eventHandle
 	};
 }
 
