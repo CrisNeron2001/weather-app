@@ -8,6 +8,17 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+	"baseUrl": "./",
+	"paths": {
+		"@components/*": ["src/components/*"],
+		"@interfaces/*": ["src/interfaces/*"],
+		"@services/*": ["src/services/*"],
+		"@hooks/*":["src/hooks/*"],
+		"@data/*": ["src/data/*"],
+		"@layouts/*": ["src/layouts/*"],
+		"@models/*": ["src/models/*"]
+	},
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -21,17 +32,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
-	"baseUrl": "./",
-	"paths": {
-		"@components/*": ["src/components/*"],
-		"@interfaces/*": ["src/interfaces/*"],
-		"@services/*": ["src/services/*"],
-		"@hooks/*":["src/hooks/*"],
-		"@data/*": ["src/data/*"],
-		"@layouts/*": ["src/layouts/*"],
-		"@models/*": ["src/models/*"]
-	}
   },
   "include": ["src", "src/core/class/error/.ts"]
 }
