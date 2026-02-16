@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "89b3f92d-9aa8-4f88-af4e-12fd627ab03e",
+		"name": "Weather API ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21162266"
+	},
+	"item": [
+		{
+			"name": "getWeather",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true,
+					"accept": true,
+					"accept-encoding": true,
+					"connection": true,
+					"host": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/weather",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"weather"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
