@@ -1,18 +1,16 @@
 import { locations } from "@data/locations-regions-data";
 import useHandleClickCircle from "@hooks/handle-click-circle/useHandleClickCircle";
-import { Circle, Tooltip } from "react-leaflet";
-import { WeatherProp } from "src/types/weather-prop";
+import { Circle, useMap } from "react-leaflet";
+import { WeatherProp } from "@typing/weather-prop";
 
 export const CircleTooltip = ({weatherData}: WeatherProp) => {
-	const { eventHandler, tempInfo } = useHandleClickCircle({weatherData});
+	const map = useMap();
+	const { eventHandler } = useHandleClickCircle({weatherData});
 
 	if (!Array.isArray(weatherData)) return null;
 
 	const weatherWithLocation = weatherData.map(weather => {
 		const location = locations.find(loc => loc.name === weather.city)
-		console.log("tempInfo: ", tempInfo);
-		console.log("tipo de tempInfo:", typeof tempInfo);
-
 		return {
 			...weather,
 			lat: location?.lat,
@@ -24,16 +22,20 @@ export const CircleTooltip = ({weatherData}: WeatherProp) => {
 		<Circle
 			key={w.code}
 			center={[w.lat ?? 0, w.lon ?? 0]}
-			radius={700}
+			radius={8303}
 			fillColor="blue"
 			eventHandlers={{
 				...eventHandler,
 				click(e){
-					e.target.openTooltip();
+					e.target.bindTooltip(
+						`${w.city}: ${w.temperature}°C ${w.condition}`
+					).openTooltip();
+					map.flyTo([w.lat!, w.lon!], 10 , {
+						duration: 1.2
+					})
 				}
 			}}
 		>
-			<Tooltip permanent>{ tempInfo }</Tooltip>	
 		</Circle>
 	))
 }

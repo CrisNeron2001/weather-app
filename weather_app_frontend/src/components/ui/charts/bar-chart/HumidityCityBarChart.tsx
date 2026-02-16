@@ -1,3 +1,4 @@
+import { WeatherProp } from "@typing/weather-prop";
 import { 
 	Chart as ChartJS,
 	CategoryScale,
@@ -8,7 +9,6 @@ import {
 	Legend
  } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { WeatherProp } from "src/types/weather-prop";
 
 ChartJS.register(
 	CategoryScale,

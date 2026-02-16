@@ -3,18 +3,14 @@ import {
 	TileLayer
 } from "react-leaflet";
 import { CircleTooltip } from "../circle/circle-tooltip/CircleTooltip";
-import { WeatherProp } from "src/types/weather-prop";
+import { WeatherProp } from "@typing/weather-prop";
 
 export const WeatherInfoMapChart = ({weatherData}: WeatherProp) => {
-
-	console.log("componente del circulo con tooltip: ", CircleTooltip);
-	console.log("componente del mapa: ", MapContainer);
-	console.log("el tilelayer: ", TileLayer);
 	return (
 		<MapContainer 
 			className="h-100 w-full"
 			center={[-33.45, -70.66]} 
-			zoom={13} 
+			zoom={3} 
 			scrollWheelZoom={false}
 		>
 			<TileLayer 
