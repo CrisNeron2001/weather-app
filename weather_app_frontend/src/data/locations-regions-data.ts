@@ -30,7 +30,7 @@ export const locations: Location[] = [
 	{ name: "Puerto Williams", lat: -54.933333, lon: -67.616667},
 	{ name: "Porvenir", lat: -53.290000, lon: -70.380000 },
 	{ name: "Rancagua", lat: -34.170000, lon: -70.740000 },
-	{ name: "Loas Angeles", lat: -37.470000, lon: -72.350000 },
+	{ name: "Los Angeles", lat: -37.470000, lon: -72.350000 },
 	{ name: "Chaitén", lat: -42.900000, lon: -72.700000 },
 	{ name: "Chile Chico", lat: -46.533333, lon: -71.733333 },
 	{ name: "Cochrane", lat: -47.250000, lon: -72.570000 },
