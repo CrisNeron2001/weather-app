@@ -9,7 +9,7 @@ import {
 	Legend
  } from "chart.js";
 import { Line } from "react-chartjs-2";
-import { WeatherProp } from "src/types/weather-prop";
+import { WeatherProp } from "@typing/weather-prop";
 ChartJS.register(
 	CategoryScale,
 	LinearScale,

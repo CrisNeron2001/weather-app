@@ -1,5 +1,6 @@
-import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
+import { Dialog, DialogPanel } from '@headlessui/react';
 import useFetchWeatherWithLocation from "@hooks/fetch-weather-hook/useFetchWeatherData";
+import "@styles/loading-style.css";
 
 export const LoadingModal = () => {
 
@@ -12,11 +13,9 @@ export const LoadingModal = () => {
 					<div className="flex min-h-full items-center justify-center p-4">
 						<DialogPanel 
 							transition 
-							className="w-full max-w-md rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-closed:transform-[scale(95%)] data-closed:opacity-0"
+							className="flex w-full items-center justify-center max-w-md rounded-xl bg-white/5 p-25 backdrop-blur-2xl duration-300 ease-out data-closed:transform-[scale(95%)] data-closed:opacity-0 i}"
 						>
-							<DialogTitle as="h3" className="text-base/7 font-medium text-white">
-								Cargando...
-							</DialogTitle>
+							<span className='loader'></span>
 						</DialogPanel>
 					</div>
 				</div>

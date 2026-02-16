@@ -7,7 +7,7 @@ export function WithArticle<T extends object>(WrappedComponent: ComponentType<T>
 		}, []);
 
 		return (
-		<article className="flex justify-center size-auto">
+		<article className="flex justify-center size-auto w-full h-100 p-4">
 			<WrappedComponent {...props}/>
 		</article>
 	);
