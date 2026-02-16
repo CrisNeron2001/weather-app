@@ -1,0 +1,6 @@
+__pycache__
+response_data_api_swagger.json
+Weather API .postman_collection.json
+*.log
+*.md
+.gitignore

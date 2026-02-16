@@ -1,5 +1,15 @@
 services:
-  frontend:
+  backend-fastapi:
+    build:
+      context: ./weather_app_backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./weather_app_backend:/app:Z
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  frontend-react:
     build:
       context: ./weather_app_frontend
       dockerfile: Dockerfile
@@ -7,8 +17,9 @@ services:
       - "5173:5173"
     volumes:
       - ./weather_app_frontend/src:/app/src
-      - /app/node_modules
     environment:
       - CHOKIDAR_USEPOLLING=true
       - NODE_ENV=development
     command: ["npm", "run", "dev", "--", "--host"]
+    depends_on:
+      - backend-fastapi
