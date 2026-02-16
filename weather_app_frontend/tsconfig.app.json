@@ -16,7 +16,9 @@
 		"@hooks/*":["src/hooks/*"],
 		"@data/*": ["src/data/*"],
 		"@layouts/*": ["src/layouts/*"],
-		"@models/*": ["src/models/*"]
+		"@models/*": ["src/models/*"],
+		"@typing/*": ["src/types/*"],
+		"@styles/*": ["src/styles/*"]
 	},
 
     /* Bundler mode */
@@ -33,5 +35,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
   },
-  "include": ["src", "src/core/class/error/.ts"]
+  "include": ["src", "src/core/class/error/.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx",],
 }

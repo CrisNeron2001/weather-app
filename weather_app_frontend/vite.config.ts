@@ -11,14 +11,16 @@ export default defineConfig({
   ],  resolve: {
 	alias: {
 		'@': path.resolve(__dirname, './src'),
-		'@components': path.resolve(__dirname, 'src/components'),
-		'@interfaces':  path.resolve(__dirname, 'src/interfaces'),
-		'@services':  path.resolve(__dirname, 'src/services'),
-		'@hooks':  path.resolve(__dirname, 'src/hooks'),
-		'@data':  path.resolve(__dirname, 'src/data'),
-		'@layouts':  path.resolve(__dirname, 'src/layouts'),
-		'@models':  path.resolve(__dirname, 'src/models'),
+		'@components': path.resolve(__dirname, './src/components'),
+		'@interfaces':  path.resolve(__dirname, './src/interfaces'),
+		'@services':  path.resolve(__dirname, './src/services'),
+		'@hooks':  path.resolve(__dirname, './src/hooks'),
+		'@data':  path.resolve(__dirname, './src/data'),
+		'@layouts':  path.resolve(__dirname, './src/layouts'),
+		'@models':  path.resolve(__dirname, './src/models'),
+		'@typing':  path.resolve(__dirname, './src/types'),
+		'@styles': path.resolve(__dirname, './src/styles')
 	},
-	extensions: [".ts", ".tsx", ".js", "jsx"],
+	extensions: [".ts", ".tsx", ".js", ".jsx"],
   }
 })
