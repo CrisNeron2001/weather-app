@@ -20,22 +20,28 @@ This module allows the visual representation of climate variables across the Chi
 
 ## Technologies i used:
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Static Badge](https://img.shields.io/badge/0.128.6-gray?style=plastic&logo=fastapi&logoColor=white&logoSize=12&label=fastapi&labelColor=%23009688&color=gray)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Static Badge](https://img.shields.io/badge/3.13.2-gray?style=plastic&logo=python&logoColor=white&logoSize=12&label=python&labelColor=%233776AB&color=gray)
 
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+![Static Badge](https://img.shields.io/badge/3.1.1-gray?style=plastic&logo=swagger&logoColor=%233B3B3B&logoSize=12&label=swagger&labelColor=%2385EA2D&color=gray)
 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Static Badge](https://img.shields.io/badge/11.84.3-gray?style=plastic&logo=postman&logoColor=white&logoSize=12&label=postman&labelColor=%23FF6C37&color=gray)
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Static Badge](https://img.shields.io/badge/5.0.2-gray?style=plastic&logo=docker&logoColor=white&logoSize=12&label=docker%20compose&labelColor=%232496ED&color=gray)
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Static Badge](https://img.shields.io/badge/5.7.1-gray?style=plastic&logo=podman&logoColor=white&logoSize=12&label=podman&labelColor=%23892CA0&color=gray)
 
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Static Badge](https://img.shields.io/badge/18.2.0-gray?style=plastic&logo=react&logoColor=%233B3B3B&logoSize=12&label=react&labelColor=%2361DAFB&color=gray)
 
-![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
+![Static Badge](https://img.shields.io/badge/~5.6.2-gray?style=plastic&logo=typescript&logoColor=white&logoSize=12&label=typescript&labelColor=%233178C6&color=gray)
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Static Badge](https://img.shields.io/badge/%5E6.2.3-gray?style=plastic&logo=vite&logoColor=white&logoSize=12&label=vite&labelColor=%239135FF&color=gray)
 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Static Badge](https://img.shields.io/badge/%5E4.4.9-gray?style=plastic&logo=chartdotjs&logoColor=white&logoSize=12&label=chart.js&labelColor=%23FF6384&color=gray)
+
+![Static Badge](https://img.shields.io/badge/%5E1.9.4-gray?style=plastic&logo=leaflet&logoColor=white&logoSize=12&label=leaflet&labelColor=%23199900&color=gray)
+
+![Static Badge](https://img.shields.io/badge/%5E4.0.7-gray?style=plastic&logo=tailwindcss&logoColor=white&logoSize=12&label=tailwindcss&labelColor=%2306B6D4&color=gray)
+
+![Static Badge](https://img.shields.io/badge/.env-gray?style=plastic&logo=dotenv&logoColor=%233B3B3B&logoSize=12&labelColor=%23ECD53F&color=gray)
