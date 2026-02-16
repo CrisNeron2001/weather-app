@@ -1,23 +1,7 @@
-Weather App
+Weather App Frontend
 ----------------
 
-![Static Badge](https://img.shields.io/badge/18.2.0-gray?style=plastic&logo=react&logoColor=%233B3B3B&logoSize=12&label=react&labelColor=%2361DAFB&color=gray)
-
-![Static Badge](https://img.shields.io/badge/~5.6.2-gray?style=plastic&logo=typescript&logoColor=white&logoSize=12&label=typescript&labelColor=%233178C6&color=gray)
-
-![Static Badge](https://img.shields.io/badge/%5E6.2.3-gray?style=plastic&logo=vite&logoColor=white&logoSize=12&label=vite&labelColor=%239135FF&color=gray)
-
-![Static Badge](https://img.shields.io/badge/%5E4.4.9-gray?style=plastic&logo=chartdotjs&logoColor=white&logoSize=12&label=chart.js&labelColor=%23FF6384&color=gray)
-
-![Static Badge](https://img.shields.io/badge/%5E1.9.4-gray?style=plastic&logo=leaflet&logoColor=white&logoSize=12&label=leaflet&labelColor=%23199900&color=gray)
-
-![Static Badge](https://img.shields.io/badge/%5E4.0.7-gray?style=plastic&logo=tailwindcss&logoColor=white&logoSize=12&label=tailwindcss&labelColor=%2306B6D4&color=gray)
-
-![Static Badge](https://img.shields.io/badge/.env-gray?style=plastic&logo=dotenv&logoColor=%233B3B3B&logoSize=12&labelColor=%23ECD53F&color=gray)
-
-![Static Badge](https://img.shields.io/badge/5.0.2-gray?style=plastic&logo=docker&logoColor=white&logoSize=12&label=docker%20compose&labelColor=%232496ED&color=gray)
-
-![Static Badge](https://img.shields.io/badge/5.7.1-gray?style=plastic&logo=podman&logoColor=white&logoSize=12&label=podman&labelColor=%23892CA0&color=gray)
+![Static Badge](https://img.shields.io/badge/11.5.2-gray?style=plastic&logo=npm&logoColor=white&logoSize=12&label=npm&labelColor=%23CB3837&color=gray) ![Static Badge](https://img.shields.io/badge/24.11.0-gray?style=plastic&logo=nodedotjs&logoColor=white&logoSize=12&label=node.js&labelColor=%235FA04E&color=gray) ![Static Badge](https://img.shields.io/badge/18.2.0-gray?style=plastic&logo=react&logoColor=%233B3B3B&logoSize=12&label=react&labelColor=%2361DAFB&color=gray) ![Static Badge](https://img.shields.io/badge/~5.6.2-gray?style=plastic&logo=typescript&logoColor=white&logoSize=12&label=typescript&labelColor=%233178C6&color=gray) ![Static Badge](https://img.shields.io/badge/html-gray?style=plastic&logo=html5&logoColor=white&logoSize=12&labelColor=%23E34F26&color=gray) ![Static Badge](https://img.shields.io/badge/css-gray?style=plastic&logo=css&logoColor=white&logoSize=12&labelColor=%2306B6D4&color=gray) ![Static Badge](https://img.shields.io/badge/%5E6.2.3-gray?style=plastic&logo=vite&logoColor=white&logoSize=12&label=vite&labelColor=%239135FF&color=gray) ![Static Badge](https://img.shields.io/badge/%5E4.4.9-gray?style=plastic&logo=chartdotjs&logoColor=white&logoSize=12&label=chart.js&labelColor=%23FF6384&color=gray) ![Static Badge](https://img.shields.io/badge/%5E5.3.0-gray?style=plastic&logo=chartdotjs&logoColor=%233B3B3B&logoSize=12&label=react-chartjs-2&labelColor=%2361DAFB&color=gray) ![Static Badge](https://img.shields.io/badge/%5E1.9.4-gray?style=plastic&logo=leaflet&logoColor=white&logoSize=12&label=leaflet&labelColor=%23199900&color=gray) ![Static Badge](https://img.shields.io/badge/%5E4.2.1-gray?style=plastic&logo=leaflet&logoColor=%233B3B3B&logoSize=12&label=react-leaflet&labelColor=%2361DAFB&color=gray) ![Static Badge](https://img.shields.io/badge/%5E2.2.9-gray?style=plastic&logo=headlessui&logoColor=%233B3B3B&logoSize=12&label=headlessui&labelColor=%2366E3FF&color=gray) ![Static Badge](https://img.shields.io/badge/%5E4.0.7-gray?style=plastic&logo=tailwindcss&logoColor=white&logoSize=12&label=tailwindcss&labelColor=%2306B6D4&color=gray) ![Static Badge](https://img.shields.io/badge/%5E4.0.7-gray?style=plastic&logo=tailwindcss&logoColor=white&logoSize=12&label=tailwindcss%2Fvite&labelColor=%239135FF&color=gray) ![Static Badge](https://img.shields.io/badge/^10.4.20-gray?style=plastic&logo=autoprefixer&logoColor=white&logoSize=12&label=autoprefixer&labelColor=%23DD3735&color=gray) ![Static Badge](https://img.shields.io/badge/%5E9.17.0-gray?style=plastic&logo=eslint&logoColor=white&logoSize=12&label=eslint&labelColor=%234B32C3&color=gray) ![Static Badge](https://img.shields.io/badge/.env-gray?style=plastic&logo=dotenv&logoColor=%233B3B3B&logoSize=12&labelColor=%23ECD53F&color=gray) ![Static Badge](https://img.shields.io/badge/5.0.2-gray?style=plastic&logo=docker&logoColor=white&logoSize=12&label=docker%20compose&labelColor=%232496ED&color=gray) ![Static Badge](https://img.shields.io/badge/5.7.1-gray?style=plastic&logo=podman&logoColor=white&logoSize=12&label=podman&labelColor=%23892CA0&color=gray)
 ----------------
 
 URL Base: http://localhost:5173/
