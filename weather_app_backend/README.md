@@ -1,16 +1,19 @@
 Weather App
 -----------------
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Static Badge](https://img.shields.io/badge/0.128.6-gray?style=plastic&logo=fastapi&logoColor=white&logoSize=12&label=fastapi&labelColor=%23009688&color=gray)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Static Badge](https://img.shields.io/badge/3.13.2-gray?style=plastic&logo=python&logoColor=white&logoSize=12&label=python&labelColor=%233776AB&color=gray)
 
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+![Static Badge](https://img.shields.io/badge/3.1.1-gray?style=plastic&logo=swagger&logoColor=%233B3B3B&logoSize=12&label=swagger&labelColor=%2385EA2D&color=gray)
 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Static Badge](https://img.shields.io/badge/11.84.3-gray?style=plastic&logo=postman&logoColor=white&logoSize=12&label=postman&labelColor=%23FF6C37&color=gray)
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Static Badge](https://img.shields.io/badge/5.0.2-gray?style=plastic&logo=docker&logoColor=white&logoSize=12&label=docker%20compose&labelColor=%232496ED&color=gray)
 
+![Static Badge](https://img.shields.io/badge/5.7.1-gray?style=plastic&logo=podman&logoColor=white&logoSize=12&label=podman&labelColor=%23892CA0&color=gray)
+
+![Static Badge](https://img.shields.io/badge/.env-gray?style=plastic&logo=dotenv&logoColor=%233B3B3B&logoSize=12&labelColor=%23ECD53F&color=gray)
 ----------------
 
 
