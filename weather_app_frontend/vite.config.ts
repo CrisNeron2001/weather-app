@@ -8,16 +8,17 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-  ],
-  resolve: {
-	alias: [
-		{ find: /^@components\/(.*)/, replacement: path.resolve(__dirname, 'src/components') + '/$1' },
-		{ find: /^@interfaces\/(.*)/, replacement: path.resolve(__dirname, 'src/interfaces') + '/$1' },
-		{ find: /^@services\/(.*)/, replacement: path.resolve(__dirname, 'src/services') + '/$1' },
-		{ find: /^@hooks\/(.*)/, replacement: path.resolve(__dirname, 'src/hooks') + '/$1' },
-		{ find: /^@data\/(.*)/, replacement: path.resolve(__dirname, 'src/data') + '/$1' },
-		{ find: /^@layouts\/(.*)/, replacement: path.resolve(__dirname, 'src/layouts') + '/$1' },
-		{ find: /^@models\/(.*)/, replacement: path.resolve(__dirname, 'src/models') + '/$1' },
-	]
+  ],  resolve: {
+	alias: {
+		'@': path.resolve(__dirname, './src'),
+		'@components': path.resolve(__dirname, 'src/components'),
+		'@interfaces':  path.resolve(__dirname, 'src/interfaces'),
+		'@services':  path.resolve(__dirname, 'src/services'),
+		'@hooks':  path.resolve(__dirname, 'src/hooks'),
+		'@data':  path.resolve(__dirname, 'src/data'),
+		'@layouts':  path.resolve(__dirname, 'src/layouts'),
+		'@models':  path.resolve(__dirname, 'src/models'),
+	},
+	extensions: [".ts", ".tsx", ".js", "jsx"],
   }
 })
