@@ -28,7 +28,7 @@ export const CircleTooltip = ({weatherData}: WeatherProp) => {
 				...eventHandler,
 				click(e){
 					e.target.bindTooltip(
-						`${w.city}: ${w.temperature}°C ${w.condition}`
+						`${w.city}: ${w.temperature}°C, ${w.condition}. Actualizado a las ${w.updated_at} hrs.`
 					).openTooltip();
 					map.flyTo([w.lat!, w.lon!], 10 , {
 						duration: 1.2

@@ -7,14 +7,15 @@ import './App.css';
 import { ErrorModal } from '@components/ui/common/modal/error-modal/ErrorModal';
 import { LoadingModal } from '@components/ui/common/modal/loading-modal/LoadingModal';
 import useFetchWeatherData from '@hooks/fetch-weather-hook/useFetchWeatherData';
+import { Footer } from '@layouts/footer/Footer';
 
 const App: React.FC = () => {
 	const { weatherData, isLoading, error } = useFetchWeatherData();
 
     return (
-		<div className="flex flex-col row-auto gap-6">
+		<div className="flex flex-col row-auto min-h-screen gap-6">
 			<Header/>
-			<div className='flex justify-center'>
+			<div className='grow flex justify-center items-center'>
 				{isLoading ? (
 					<LoadingModal/>
 				) : error ? (
@@ -31,6 +32,7 @@ const App: React.FC = () => {
 					</Main>
 				)}
 			</div>
+			<Footer/>
 		</div>
     );
 };
